@@ -49,7 +49,7 @@ Each topic folder includes a standalone technical guide containing theory, core 
 ## 📂 Repository Structure
 
 ```text
-dsa_questions_java/
+data-structures-and-algorithms-java/
 ├── Arrays/          # 30 problems + README.md (Two Pointers, Prefix Sums, Kadane's)
 ├── LinkedList/      # 10 problems + README.md (Cycle Detection, Reversals)
 ├── Stack/           # 9 problems  + README.md (Monotonic Stack, Infix/Postfix)
@@ -230,8 +230,8 @@ dsa_questions_java/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yashika-34/dsa_questions_java.git
-cd dsa_questions_java
+git clone https://github.com/yashika-34/data-structures-and-algorithms-java.git
+cd data-structures-and-algorithms-java
 ```
 
 ### 2. Standalone Programs (e.g., Arrays, LinkedList, Stack, Queue, Strings, Recursion)
