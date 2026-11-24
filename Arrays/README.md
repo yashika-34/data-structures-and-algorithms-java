@@ -22,7 +22,7 @@ This folder contains my solutions and practice problems on **Arrays and Matrix M
 
 ---
 
-## 📂 Problem Index (30 Solutions)
+## 📂 Problem Index (33 Solutions)
 
 | Problem / File | Concept | LeetCode / Source | Time Complexity | Space Complexity |
 |---|---|:---:|:---:|:---:|
@@ -32,8 +32,11 @@ This folder contains my solutions and practice problems on **Arrays and Matrix M
 | [`MaxProduct.java`](MaxProduct.java) | Maximum product subarray | LeetCode 152 | $O(N)$ | $O(N)$ |
 | [`BestTimeToBuyAndSell.java`](BestTimeToBuyAndSell.java) | Single-pass min-price tracking | LeetCode 121 | $O(N)$ | $O(1)$ |
 | [`MajorityElement.java`](MajorityElement.java) | Boyer-Moore Voting Algorithm | LeetCode 169 | $O(N)$ | $O(1)$ |
-| [`LongestConsecutiveSequence.java`](LongestConsecutiveSequence.java) | Sorting / Set-based sequence | LeetCode 128 | $O(N \log N)$ | $O(1)$ |
+| [`LongestConsecutiveSequence.java`](LongestConsecutiveSequence.java) | Sorting / Set-based sequence | LeetCode 128 | $O(N)$ | $O(N)$ |
 | [`SubarraySumEqualsK.java`](SubarraySumEqualsK.java) | Prefix sum hash lookup | LeetCode 560 | $O(N)$ | $O(N)$ |
+| [`SubarraySumsDivisibleByK.java`](SubarraySumsDivisibleByK.java) | Prefix sum with modulo arithmetic | LeetCode 974 | $O(N)$ | $O(\min(N, K))$ |
+| [`ContiguousArray.java`](ContiguousArray.java) | 0 to -1 mapping + Prefix sum | LeetCode 525 | $O(N)$ | $O(N)$ |
+| [`ProductOfArrayExceptSelf.java`](ProductOfArrayExceptSelf.java) | Prefix & Suffix products | LeetCode 238 | $O(N)$ | $O(1)$ aux |
 | [`TargetSum1477.java`](TargetSum1477.java) | Non-overlapping subarrays target sum | LeetCode 1477 | $O(N)$ | $O(N)$ |
 | [`RunningSum.java`](RunningSum.java) | 1D Prefix running sum | LeetCode 1480 | $O(N)$ | $O(1)$ |
 | [`RangeSumQuery.java`](RangeSumQuery.java) | Prefix sum immutable query | LeetCode 303 | Query: $O(1)$ | $O(N)$ |

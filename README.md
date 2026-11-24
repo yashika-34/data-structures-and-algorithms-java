@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-78-brightgreen?style=for-the-badge" alt="Problems Solved" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-84-brightgreen?style=for-the-badge" alt="Problems Solved" />
   <img src="https://img.shields.io/badge/Topics-8-blue?style=for-the-badge" alt="Topics" />
   <img src="https://img.shields.io/badge/Architecture-Modular%20Guides-purple?style=for-the-badge" alt="Modular Architecture" />
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License" />
@@ -19,15 +19,15 @@ Every topic folder contains its own dedicated technical study guide and problem 
 
 | Topic | Directory | Problems Solved | Documentation | Key Highlights |
 |:---|:---:|:---:|:---:|:---|
-| 📦 **Arrays** | [`Arrays/`](./Arrays) | 30 | [📖 View Documentation](./Arrays/README.md) | Two Pointers, Sliding Window, Prefix Sums, Kadane's |
+| 📦 **Arrays** | [`Arrays/`](./Arrays) | 33 | [📖 View Documentation](./Arrays/README.md) | Two Pointers, Sliding Window, Prefix Sums, Kadane's |
 | 🔗 **Linked Lists** | [`LinkedList/`](./LinkedList) | 10 | [📖 View Documentation](./LinkedList/README.md) | Floyd's Cycle, k-Group Reversal, Merging & Two Pointers |
 | 📚 **Stack** | [`Stack/`](./Stack) | 9 | [📖 View Documentation](./Stack/README.md) | Monotonic Stack, Infix/Postfix, Bracket Matching |
 | 🚶‍♂️ **Queue** | [`Queue/`](./Queue) | 9 | [📖 View Documentation](./Queue/README.md) | FIFO Operations, Circular Arrays, Sliding Window, Stream Processing |
-| 🔤 **Strings** | [`Strings/`](./Strings) | 3 | [📖 View Documentation](./Strings/README.md) | Anagrams, String Parsing, Pattern Matching |
+| 🔤 **Strings** | [`Strings/`](./Strings) | 6 | [📖 View Documentation](./Strings/README.md) | Anagrams, String Parsing, Pattern Matching, Sliding Window |
 | 🌳 **Trees** | [`Trees/`](./Trees) | 4 | [📖 View Documentation](./Trees/README.md) | Binary Tree Traversals, LCA, Maximum Depth |
 | ⛰️ **Heaps** | [`heaps/`](./heaps) | 8 | [📖 View Documentation](./heaps/README.md) | Min/Max Heap, Heap Sort, Heapify, K Largest Elements |
 | 🔄 **Recursion** | [`recursion/`](./recursion) | 5 | [📖 View Documentation](./recursion/README.md) | Backtracking, N-Queens, Sudoku Solver, Subsets |
-| **Total** | | **78** | **8 Comprehensive Guides** | |
+| **Total** | | **84** | **8 Comprehensive Guides** | |
 
 ---
 
@@ -50,11 +50,11 @@ Each topic folder includes a standalone technical guide containing theory, core 
 
 ```text
 data-structures-and-algorithms-java/
-├── Arrays/          # 30 problems + README.md (Two Pointers, Prefix Sums, Kadane's)
+├── Arrays/          # 33 problems + README.md (Two Pointers, Prefix Sums, Kadane's)
 ├── LinkedList/      # 10 problems + README.md (Cycle Detection, Reversals)
 ├── Stack/           # 9 problems  + README.md (Monotonic Stack, Infix/Postfix)
 ├── Queue/           # 9 problems  + README.md (FIFO, Sliding Window, Queue via Stacks)
-├── Strings/         # 3 problems  + README.md (Anagrams, String Parsing)
+├── Strings/         # 6 problems  + README.md (Anagrams, String Parsing, Sliding Window)
 ├── Trees/           # 4 problems  + README.md (DFS Traversals, LCA, Max Depth)
 ├── heaps/           # 8 problems  + README.md (Min/Max Heap, Heap Sort)
 ├── recursion/       # 5 problems  + README.md (N-Queens, Sudoku, Subsets)
@@ -66,7 +66,7 @@ data-structures-and-algorithms-java/
 ## 📑 Problem Index
 
 <details open>
-<summary><b>📦 Arrays (30 Solutions) — <a href="Arrays/README.md">View Topic Guide</a></b></summary>
+<summary><b>📦 Arrays (33 Solutions) — <a href="Arrays/README.md">View Topic Guide</a></b></summary>
 <br>
 
 | Problem / File | Concept / LeetCode Equivalent |
@@ -79,6 +79,9 @@ data-structures-and-algorithms-java/
 | [`MajorityElement.java`](Arrays/MajorityElement.java) | LeetCode 169: Majority Element (Boyer-Moore Voting) |
 | [`LongestConsecutiveSequence.java`](Arrays/LongestConsecutiveSequence.java) | LeetCode 128: Longest Consecutive Sequence |
 | [`SubarraySumEqualsK.java`](Arrays/SubarraySumEqualsK.java) | LeetCode 560: Subarray Sum Equals K (Prefix Sum) |
+| [`SubarraySumsDivisibleByK.java`](Arrays/SubarraySumsDivisibleByK.java) | LeetCode 974: Subarray Sums Divisible by K |
+| [`ContiguousArray.java`](Arrays/ContiguousArray.java) | LeetCode 525: Contiguous Array (Prefix Sum) |
+| [`ProductOfArrayExceptSelf.java`](Arrays/ProductOfArrayExceptSelf.java) | LeetCode 238: Product of Array Except Self |
 | [`TargetSum1477.java`](Arrays/TargetSum1477.java) | LeetCode 1477: Non-overlapping Subarrays with Target Sum |
 | [`RunningSum.java`](Arrays/RunningSum.java) | LeetCode 1480: Running Sum of 1D Array |
 | [`RangeSumQuery.java`](Arrays/RangeSumQuery.java) | LeetCode 303: Range Sum Query - Immutable |
@@ -204,12 +207,15 @@ data-structures-and-algorithms-java/
 </details>
 
 <details open>
-<summary><b>🔤 Strings (3 Solutions) — <a href="Strings/README.md">View Topic Guide</a></b></summary>
+<summary><b>🔤 Strings (6 Solutions) — <a href="Strings/README.md">View Topic Guide</a></b></summary>
 <br>
 
 | Problem / File | Concept / LeetCode Equivalent |
 |---|---|
 | [`ValidAnagrams.java`](Strings/ValidAnagrams.java) | LeetCode 242: Valid Anagram (Frequency Array) |
+| [`ValidPalindrome.java`](Strings/ValidPalindrome.java) | LeetCode 125: Valid Palindrome (Two Pointers) |
+| [`FirstUniqueCharacterInAString.java`](Strings/FirstUniqueCharacterInAString.java) | LeetCode 387: First Unique Character in a String |
+| [`LongestSubstringWithoutRepeatingCharacters.java`](Strings/LongestSubstringWithoutRepeatingCharacters.java) | LeetCode 3: Longest Substring Without Repeating Characters |
 | [`StringToAtoi.java`](Strings/StringToAtoi.java) | LeetCode 8: String to Integer (atoi) |
 | [`FindIndex.java`](Strings/FindIndex.java) | LeetCode 28: Find the Index of the First Occurrence in a String |
 
@@ -276,5 +282,6 @@ java Queue.QueueArray
 
 **Yashika Garg**  
 - GitHub: [@yashika-34](https://github.com/yashika-34)
+- LeetCode: [@yashikagarg448](https://leetcode.com/u/yashikagarg448/)
 
 *Consistency beats intensity. One problem at a time.* 🚀

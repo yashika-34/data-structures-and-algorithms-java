@@ -7,19 +7,26 @@ This folder contains my solutions and practice problems on **String Manipulation
 ## 📌 Core Concepts & Techniques
 
 1. **Character Frequency Arrays (Hashing):**
-   - Using fixed-size 26-element integer arrays (`int[26]`) for efficient $O(1)$ auxiliary space anagram validation (`ValidAnagrams.java`).
-2. **String Parsing & State Machines:**
+   - Using fixed-size 26-element integer arrays (`int[26]`) for efficient $O(1)$ auxiliary space anagram and frequency validation (`ValidAnagrams.java`, `FirstUniqueCharacterInAString.java`).
+2. **Two Pointers & Palindrome Verification:**
+   - Converging pointers validating alphanumeric characters while skipping punctuation (`ValidPalindrome.java`).
+3. **Sliding Window with Hash Maps:**
+   - Dynamic window tracking substring characters without duplicates in optimal $O(N)$ time (`LongestSubstringWithoutRepeatingCharacters.java`).
+4. **String Parsing & State Machines:**
    - Robust parsing handling leading whitespaces, sign extraction (`+`/`-`), integer overflow checking against `Integer.MAX_VALUE` and `Integer.MIN_VALUE` (`StringToAtoi.java`).
-3. **Sub-string Search & Pattern Matching:**
+5. **Sub-string Search & Pattern Matching:**
    - Searching for needle occurrences within a haystack string (`FindIndex.java`).
 
 ---
 
-## 📂 Problem Index
+## 📂 Problem Index (6 Solutions)
 
 | File | Problem Description | LeetCode | Time Complexity | Space Complexity |
 |---|---|:---:|:---:|:---:|
 | [`ValidAnagrams.java`](ValidAnagrams.java) | Valid Anagram using 26-char frequency counting | LeetCode 242 | $O(N)$ | $O(1)$ |
+| [`ValidPalindrome.java`](ValidPalindrome.java) | Valid Palindrome using two-pointer verification | LeetCode 125 | $O(N)$ | $O(1)$ |
+| [`FirstUniqueCharacterInAString.java`](FirstUniqueCharacterInAString.java) | First Unique Character in a String via frequency array | LeetCode 387 | $O(N)$ | $O(1)$ |
+| [`LongestSubstringWithoutRepeatingCharacters.java`](LongestSubstringWithoutRepeatingCharacters.java) | Longest Substring Without Repeating Characters (Sliding Window) | LeetCode 3 | $O(N)$ | $O(\min(N, M))$ |
 | [`StringToAtoi.java`](StringToAtoi.java) | String to Integer (`atoi`) with overflow clamping | LeetCode 8 | $O(N)$ | $O(1)$ |
 | [`FindIndex.java`](FindIndex.java) | Find the Index of the First Occurrence in a String (`strStr`) | LeetCode 28 | $O(N \cdot M)$ | $O(1)$ |
 
