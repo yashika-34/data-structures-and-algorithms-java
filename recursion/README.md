@@ -29,10 +29,11 @@ void backtrack(State state) {
 
 ---
 
-## 📂 Problem Index
+## 📂 Problem Index (6 Solutions)
 
 | File | Problem Description | LeetCode | Time Complexity | Space Complexity |
 |---|---|:---:|:---:|:---:|
+| [`FibonacciNumber.java`](FibonacciNumber.java) | Fibonacci Number (Dynamic / Recursive) | LeetCode 509 | $O(N)$ | $O(1)$ |
 | [`Subsets.java`](Subsets.java) | Power set generation (Include/Exclude recursion) | LeetCode 78 | $O(2^N)$ | $O(N)$ recursion stack |
 | [`SubsetsWithDup.java`](SubsetsWithDup.java) | Subsets II (Sorting + skipping duplicate elements) | LeetCode 90 | $O(2^N)$ | $O(N)$ recursion stack |
 | [`Permutations.java`](Permutations.java) | Array permutations via recursive swapping/backtracking | LeetCode 46 | $O(N \cdot N!)$ | $O(N)$ |

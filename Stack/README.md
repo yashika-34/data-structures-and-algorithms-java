@@ -33,7 +33,7 @@ A **Stack** is a linear data structure that follows the **LIFO (Last In, First O
 
 ---
 
-## 📂 Files & Implementations
+## 📂 Files & Implementations (10 Solutions)
 
 | File | Problem / Concept | LeetCode / Topic | Time Complexity | Space Complexity |
 |---|---|:---:|:---:|:---:|
@@ -46,6 +46,7 @@ A **Stack** is a linear data structure that follows the **LIFO (Last In, First O
 | [`EvaluatePostfix.java`](EvaluatePostfix.java) | Arithmetic evaluation of Postfix expressions | Core Algorithm | $O(N)$ | $O(N)$ |
 | [`EvaluatePrefix.java`](EvaluatePrefix.java) | Arithmetic evaluation of Prefix expressions | Core Algorithm | $O(N)$ | $O(N)$ |
 | [`MinReversal.java`](MinReversal.java) | Minimum bracket reversals to balance expression | GfG Classic | $O(N)$ | $O(N)$ |
+| [`OnlineStockSpan.java`](OnlineStockSpan.java) | Online Stock Span using Monotonic Stack | LeetCode 901 | $O(1)$ amortized | $O(N)$ |
 
 ---
 

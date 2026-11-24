@@ -22,7 +22,7 @@ This folder contains my solutions and practice problems on **Arrays and Matrix M
 
 ---
 
-## 📂 Problem Index (33 Solutions)
+## 📂 Problem Index (50 Solutions)
 
 | Problem / File | Concept | LeetCode / Source | Time Complexity | Space Complexity |
 |---|---|:---:|:---:|:---:|
@@ -35,8 +35,23 @@ This folder contains my solutions and practice problems on **Arrays and Matrix M
 | [`LongestConsecutiveSequence.java`](LongestConsecutiveSequence.java) | Sorting / Set-based sequence | LeetCode 128 | $O(N)$ | $O(N)$ |
 | [`SubarraySumEqualsK.java`](SubarraySumEqualsK.java) | Prefix sum hash lookup | LeetCode 560 | $O(N)$ | $O(N)$ |
 | [`SubarraySumsDivisibleByK.java`](SubarraySumsDivisibleByK.java) | Prefix sum with modulo arithmetic | LeetCode 974 | $O(N)$ | $O(\min(N, K))$ |
+| [`ContinuousSubarraySum.java`](ContinuousSubarraySum.java) | Prefix sum remainder (subarray length >= 2) | LeetCode 523 | $O(N)$ | $O(\min(N, K))$ |
 | [`ContiguousArray.java`](ContiguousArray.java) | 0 to -1 mapping + Prefix sum | LeetCode 525 | $O(N)$ | $O(N)$ |
 | [`ProductOfArrayExceptSelf.java`](ProductOfArrayExceptSelf.java) | Prefix & Suffix products | LeetCode 238 | $O(N)$ | $O(1)$ aux |
+| [`SetMatrixZeroes.java`](SetMatrixZeroes.java) | First row/column in-place marker | LeetCode 73 | $O(M \cdot N)$ | $O(1)$ |
+| [`FindPeakElement.java`](FindPeakElement.java) | Binary Search on peak slope | LeetCode 162 | $O(\log N)$ | $O(1)$ |
+| [`RotateArray.java`](RotateArray.java) | 3-step Array Reversal | LeetCode 189 | $O(N)$ | $O(1)$ |
+| [`ReversePairs.java`](ReversePairs.java) | Modified Merge Sort inversion counting | LeetCode 493 | $O(N \log N)$ | $O(N)$ |
+| [`FindPivotIndex.java`](FindPivotIndex.java) | Total Sum vs Left Sum comparison | LeetCode 724 | $O(N)$ | $O(1)$ |
+| [`CarPooling.java`](CarPooling.java) | Difference Array / Timeline buckets | LeetCode 1094 | $O(N)$ | $O(1)$ |
+| [`CorporateFlightBookings.java`](CorporateFlightBookings.java) | Difference Array + Running Prefix Sum | LeetCode 1109 | $O(N + M)$ | $O(1)$ aux |
+| [`RearrangeArrayElementsBySign.java`](RearrangeArrayElementsBySign.java) | Two Pointers (Even/Odd index placement) | LeetCode 2149 | $O(N)$ | $O(N)$ |
+| [`DistributeElements.java`](DistributeElements.java) | Two Arrays distribution simulation | LeetCode 3069 | $O(N)$ | $O(N)$ |
+| [`MinMovesCleanClassroom.java`](MinMovesCleanClassroom.java) | Multi-state BFS + Bitmask energy tracking | LeetCode 3568 | $O(R \cdot C \cdot 2^L \cdot E)$ | $O(R \cdot C \cdot 2^L \cdot E)$ |
+| [`EarliestTimeFinishTask.java`](EarliestTimeFinishTask.java) | Minimum task completion time | LeetCode 3683 | $O(N)$ | $O(1)$ |
+| [`CountCommas.java`](CountCommas.java) | Comma separator calculation in range | LeetCode 3870 | $O(1)$ | $O(1)$ |
+| [`ConstructUniformParityArrayI.java`](ConstructUniformParityArrayI.java) | Parity property verification | LeetCode 3875 | $O(N)$ | $O(1)$ |
+| [`ConstructUniformParityArrayII.java`](ConstructUniformParityArrayII.java) | Parity transformation analysis | LeetCode 3876 | $O(N)$ | $O(1)$ |
 | [`TargetSum1477.java`](TargetSum1477.java) | Non-overlapping subarrays target sum | LeetCode 1477 | $O(N)$ | $O(N)$ |
 | [`RunningSum.java`](RunningSum.java) | 1D Prefix running sum | LeetCode 1480 | $O(N)$ | $O(1)$ |
 | [`RangeSumQuery.java`](RangeSumQuery.java) | Prefix sum immutable query | LeetCode 303 | Query: $O(1)$ | $O(N)$ |
@@ -57,7 +72,8 @@ This folder contains my solutions and practice problems on **Arrays and Matrix M
 | [`CheckSubarray.java`](CheckSubarray.java) | Subarray membership verification | Core DSA | $O(N)$ | $O(1)$ |
 | [`CheckArraySortedAndRotated.java`](CheckArraySortedAndRotated.java) | Inversion count rotation check | LeetCode 1752 | $O(N)$ | $O(1)$ |
 | [`SubsetsKOverlapping.java`](SubsetsKOverlapping.java) | Non-overlapping segment subsets | LeetCode 1621 | $O(N \cdot K)$ | $O(N \cdot K)$ |
-| [`Question3903.java`](Question3903.java) | Assessment question | Practice | $O(N)$ | $O(1)$ |
+| [`Question3903.java`](Question3903.java) | Smallest Stable Index I | LeetCode 3903 | $O(N)$ | $O(N)$ |
+| [`Question3904.java`](Question3904.java) | Smallest Stable Index II | LeetCode 3904 | $O(N)$ | $O(N)$ |
 | [`NextGreaterElement.java`](NextGreaterElement.java) | Next Greater Element I (Monotonic Stack) | LeetCode 496 | $O(N)$ | $O(N)$ |
 
 ---

@@ -40,19 +40,23 @@ class ListNode {
 
 ---
 
-## 📂 Files & Solutions
+## 📂 Files & Solutions (15 Solutions)
 
 | File | Problem Description | LeetCode | Time Complexity | Space Complexity |
 |---|---|:---:|:---:|:---:|
 | [`ReverseLinkedList.java`](ReverseLinkedList.java) | Reverse Linked List (Iterative 3-pointer) | LeetCode 206 | $O(N)$ | $O(1)$ |
 | [`ReverseByK.java`](ReverseByK.java) | Reverse Nodes in k-Group | LeetCode 25 | $O(N)$ | $O(1)$ |
+| [`RotateList.java`](RotateList.java) | Rotate List to the right by k places | LeetCode 61 | $O(N)$ | $O(1)$ |
 | [`DetectLoop.java`](DetectLoop.java) | Cycle Detection (Floyd's Tortoise & Hare) | LeetCode 141 | $O(N)$ | $O(1)$ |
+| [`DetectLoopII.java`](DetectLoopII.java) | Linked List Cycle II (Find Entry Point) | LeetCode 142 | $O(N)$ | $O(1)$ |
 | [`PalindromeLinkedList.java`](PalindromeLinkedList.java) | Palindrome Linked List (Find Middle + Reverse) | LeetCode 234 | $O(N)$ | $O(1)$ |
 | [`MergeLinkedList.java`](MergeLinkedList.java) | Merge Two Sorted Lists | LeetCode 21 | $O(N + M)$ | $O(1)$ |
 | [`AddTwoNumbers.java`](AddTwoNumbers.java) | Add Two Numbers represented by Linked Lists | LeetCode 2 | $O(\max(N, M))$ | $O(\max(N, M))$ |
 | [`RemoveNthFromEnd.java`](RemoveNthFromEnd.java) | Remove Nth Node From End (One-pass Two Pointers) | LeetCode 19 | $O(N)$ | $O(1)$ |
 | [`RemoveElements.java`](RemoveElements.java) | Remove Linked List Elements matching value | LeetCode 203 | $O(N)$ | $O(1)$ |
+| [`DeleteNodeLinkedList.java`](DeleteNodeLinkedList.java) | Delete Node in a Linked List (Node access only) | LeetCode 237 | $O(1)$ | $O(1)$ |
 | [`OddEvenLinkedList.java`](OddEvenLinkedList.java) | Odd Even Linked List (Grouping by node index) | LeetCode 328 | $O(N)$ | $O(1)$ |
+| [`MiddleNode.java`](MiddleNode.java) | Middle of the Linked List (Fast & Slow pointers) | LeetCode 876 | $O(N)$ | $O(1)$ |
 | [`SortColors.java`](SortColors.java) | Sort Colors (Three-Way Partitioning) | LeetCode 75 | $O(N)$ | $O(1)$ |
 
 ---

@@ -36,14 +36,25 @@ public class TreeNode {
 
 ---
 
-## 📂 Files & Problem Solutions
+## 📂 Files & Problem Solutions (15 Solutions)
 
 | File | Problem / Concept | LeetCode | Time Complexity | Space Complexity |
 |---|---|:---:|:---:|:---:|
-| [`TreeNode.java`](TreeNode.java) | Node structure & Postorder Traversal | LeetCode 145 | $O(N)$ | $O(H)$ recursion stack |
-| [`Main.java`](Main.java) | Tree construction & Inorder Traversal driver | LeetCode 94 | $O(N)$ | $O(H)$ recursion stack |
+| [`TreeNode.java`](TreeNode.java) | Binary Tree Node definition | Core DSA | - | - |
+| [`Main.java`](Main.java) | Tree construction & Traversal driver | Core DSA | $O(N)$ | $O(H)$ |
+| [`InorderTraversal.java`](InorderTraversal.java) | Binary Tree Inorder Traversal | LeetCode 94 | $O(N)$ | $O(H)$ |
+| [`PostorderTraversal.java`](PostorderTraversal.java) | Binary Tree Postorder Traversal | LeetCode 145 | $O(N)$ | $O(H)$ |
 | [`MaximumDepthOfTree.java`](MaximumDepthOfTree.java) | Maximum Depth of Binary Tree | LeetCode 104 | $O(N)$ | $O(H)$ |
+| [`MaxPathSum.java`](MaxPathSum.java) | Binary Tree Maximum Path Sum | LeetCode 124 | $O(N)$ | $O(H)$ |
 | [`LowestCommonAncestor.java`](LowestCommonAncestor.java) | Lowest Common Ancestor (LCA) | LeetCode 236 | $O(N)$ | $O(H)$ |
+| [`KthSmallestBST.java`](KthSmallestBST.java) | Kth Smallest Element in a BST | LeetCode 230 | $O(H + K)$ | $O(H)$ |
+| [`DeleteNodeBST.java`](DeleteNodeBST.java) | Delete Node in a BST | LeetCode 450 | $O(H)$ | $O(H)$ |
+| [`SearchBST.java`](SearchBST.java) | Search in a Binary Search Tree | LeetCode 700 | $O(H)$ | $O(1)$ |
+| [`NaryTreePreorder.java`](NaryTreePreorder.java) | N-ary Tree Preorder Traversal | LeetCode 589 | $O(N)$ | $O(N)$ |
+| [`NaryTreeLevelOrder.java`](NaryTreeLevelOrder.java) | N-ary Tree Level Order Traversal | LeetCode 429 | $O(N)$ | $O(N)$ |
+| [`NumberOfIslands.java`](NumberOfIslands.java) | Number of Islands (Grid DFS / BFS) | LeetCode 200 | $O(M \cdot N)$ | $O(M \cdot N)$ |
+| [`NumberOfProvinces.java`](NumberOfProvinces.java) | Number of Provinces (Graph DFS / Disjoint Set) | LeetCode 547 | $O(N^2)$ | $O(N)$ |
+| [`NumWaysSameBST.java`](NumWaysSameBST.java) | Number of Ways to Reorder Array to Get Same BST | LeetCode 1569 | $O(N^2)$ | $O(N^2)$ |
 
 *(Where $N$ is the number of nodes and $H$ is the tree height: $O(\log N)$ for balanced trees, $O(N)$ for skewed trees).*
 

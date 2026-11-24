@@ -19,16 +19,22 @@ This folder contains my solutions and practice problems on **String Manipulation
 
 ---
 
-## 📂 Problem Index (6 Solutions)
+## 📂 Problem Index (12 Solutions)
 
 | File | Problem Description | LeetCode | Time Complexity | Space Complexity |
 |---|---|:---:|:---:|:---:|
 | [`ValidAnagrams.java`](ValidAnagrams.java) | Valid Anagram using 26-char frequency counting | LeetCode 242 | $O(N)$ | $O(1)$ |
 | [`ValidPalindrome.java`](ValidPalindrome.java) | Valid Palindrome using two-pointer verification | LeetCode 125 | $O(N)$ | $O(1)$ |
+| [`ReverseString.java`](ReverseString.java) | Reverse String (Two Pointers in-place) | LeetCode 344 | $O(N)$ | $O(1)$ |
+| [`ReverseWords.java`](ReverseWords.java) | Reverse Words in a String | LeetCode 151 | $O(N)$ | $O(N)$ |
+| [`ReverseInteger.java`](ReverseInteger.java) | Reverse Integer with overflow handling | LeetCode 7 | $O(\log_{10} X)$ | $O(1)$ |
 | [`FirstUniqueCharacterInAString.java`](FirstUniqueCharacterInAString.java) | First Unique Character in a String via frequency array | LeetCode 387 | $O(N)$ | $O(1)$ |
 | [`LongestSubstringWithoutRepeatingCharacters.java`](LongestSubstringWithoutRepeatingCharacters.java) | Longest Substring Without Repeating Characters (Sliding Window) | LeetCode 3 | $O(N)$ | $O(\min(N, M))$ |
+| [`SortCharactersByFrequency.java`](SortCharactersByFrequency.java) | Sort Characters By Frequency (Max Heap / Bucket) | LeetCode 451 | $O(N \log K)$ | $O(N)$ |
+| [`ShiftingLetters.java`](ShiftingLetters.java) | Shifting Letters via Suffix Sum | LeetCode 848 | $O(N)$ | $O(N)$ |
 | [`StringToAtoi.java`](StringToAtoi.java) | String to Integer (`atoi`) with overflow clamping | LeetCode 8 | $O(N)$ | $O(1)$ |
 | [`FindIndex.java`](FindIndex.java) | Find the Index of the First Occurrence in a String (`strStr`) | LeetCode 28 | $O(N \cdot M)$ | $O(1)$ |
+| [`MaxPalindromes.java`](MaxPalindromes.java) | Maximum Number of Non-overlapping Palindrome Substrings | LeetCode 2472 | $O(N \cdot K)$ | $O(1)$ |
 
 ---
 
