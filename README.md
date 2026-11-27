@@ -2,15 +2,15 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-127-brightgreen?style=for-the-badge" alt="Problems Solved" />
-  <img src="https://img.shields.io/badge/LeetCode%20Solved-90-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Solved" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-129-brightgreen?style=for-the-badge" alt="Problems Solved" />
+  <img src="https://img.shields.io/badge/LeetCode%20Solved-92-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Solved" />
   <img src="https://img.shields.io/badge/Topics-9-blue?style=for-the-badge" alt="Topics" />
   <img src="https://img.shields.io/badge/Architecture-Modular%20Guides-purple?style=for-the-badge" alt="Modular Architecture" />
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License" />
   <img src="https://img.shields.io/badge/Status-Actively%20Practicing-orange?style=for-the-badge" alt="Status" />
 </p>
 
-A structured, well-organized repository of **Data Structures and Algorithms (DSA) solutions implemented in Java** (covering all 90 LeetCode problems solved on [@yashikagarg448](https://leetcode.com/u/yashikagarg448/)). Built to develop strong problem-solving fundamentals, master core computer science concepts, and prepare for technical interviews.
+A structured, well-organized repository of **Data Structures and Algorithms (DSA) solutions implemented in Java** (covering all LeetCode problems solved on [@yashikagarg448](https://leetcode.com/u/yashikagarg448/)). Built to develop strong problem-solving fundamentals, master core computer science concepts, and prepare for technical interviews.
 
 ---
 
@@ -20,16 +20,16 @@ Every topic folder contains its own dedicated technical study guide and problem 
 
 | Topic | Directory | Problems Solved | Documentation | Key Highlights |
 |:---|:---:|:---:|:---:|:---|
-| 📦 **Arrays** | [`Arrays/`](./Arrays) | 50 | [📖 View Documentation](./Arrays/README.md) | Two Pointers, Sliding Window, Prefix Sums, Kadane's |
+| 📦 **Arrays** | [`Arrays/`](./Arrays) | 51 | [📖 View Documentation](./Arrays/README.md) | Two Pointers, Sliding Window, Prefix Sums, Kadane's |
 | 🔗 **Linked Lists** | [`LinkedList/`](./LinkedList) | 15 | [📖 View Documentation](./LinkedList/README.md) | Floyd's Cycle, k-Group Reversal, Merging & Two Pointers |
 | 🌳 **Trees & Graphs** | [`Trees/`](./Trees) | 15 | [📖 View Documentation](./Trees/README.md) | DFS/BFS Traversals, LCA, BST Operations, Number of Islands |
-| 🔤 **Strings** | [`Strings/`](./Strings) | 12 | [📖 View Documentation](./Strings/README.md) | Anagrams, String Parsing, Sliding Window, Palindromes |
+| 🔤 **Strings** | [`Strings/`](./Strings) | 13 | [📖 View Documentation](./Strings/README.md) | Anagrams, String Parsing, Sliding Window, Palindromes |
 | 📚 **Stack** | [`Stack/`](./Stack) | 10 | [📖 View Documentation](./Stack/README.md) | Monotonic Stack, Infix/Postfix, Bracket Matching, Stock Span |
 | 🚶‍♂️ **Queue** | [`Queue/`](./Queue) | 9 | [📖 View Documentation](./Queue/README.md) | FIFO Operations, Circular Arrays, Sliding Window, Stream Processing |
 | ⛰️ **Heaps** | [`heaps/`](./heaps) | 8 | [📖 View Documentation](./heaps/README.md) | Min/Max Heap, Heap Sort, Heapify, K Largest Elements |
 | 🔄 **Recursion** | [`recursion/`](./recursion) | 6 | [📖 View Documentation](./recursion/README.md) | Backtracking, N-Queens, Sudoku Solver, Subsets, Permutations |
 | 🗄️ **Database** | [`Database/`](./Database) | 1 | [📖 View Query](./Database/DuplicateEmails.sql) | SQL Aggregation & Grouping |
-| **Total** | | **127** | **8 Comprehensive Guides** | **100% LeetCode Coverage (90/90)** |
+| **Total** | | **129** | **8 Comprehensive Guides** | **100% LeetCode Coverage** |
 
 ---
 
@@ -52,10 +52,10 @@ Each topic folder includes a standalone technical guide containing theory, core 
 
 ```text
 data-structures-and-algorithms-java/
-├── Arrays/          # 50 problems + README.md (Two Pointers, Prefix Sums, Kadane's)
+├── Arrays/          # 51 problems + README.md (Two Pointers, Prefix Sums, Kadane's, Sliding Window)
 ├── LinkedList/      # 15 problems + README.md (Cycle Detection, Reversals, Rotations)
 ├── Trees/           # 15 problems + README.md (DFS/BFS Traversals, LCA, BST, Grid DFS)
-├── Strings/         # 12 problems + README.md (Anagrams, Palindromes, Sliding Window)
+├── Strings/         # 13 problems + README.md (Anagrams, Palindromes, Sliding Window, Character Replacement)
 ├── Stack/           # 10 problems + README.md (Monotonic Stack, Infix/Postfix, Stock Span)
 ├── Queue/           # 9 problems  + README.md (FIFO, Sliding Window, Queue via Stacks)
 ├── heaps/           # 8 problems  + README.md (Min/Max Heap, Heap Sort)
@@ -69,7 +69,7 @@ data-structures-and-algorithms-java/
 ## 📑 Problem Index
 
 <details open>
-<summary><b>📦 Arrays (50 Solutions) — <a href="Arrays/README.md">View Topic Guide</a></b></summary>
+<summary><b>📦 Arrays (51 Solutions) — <a href="Arrays/README.md">View Topic Guide</a></b></summary>
 <br>
 
 | Problem / File | Concept / LeetCode Equivalent |
@@ -85,6 +85,7 @@ data-structures-and-algorithms-java/
 | [`SubarraySumsDivisibleByK.java`](Arrays/SubarraySumsDivisibleByK.java) | LeetCode 974: Subarray Sums Divisible by K |
 | [`ContinuousSubarraySum.java`](Arrays/ContinuousSubarraySum.java) | LeetCode 523: Continuous Subarray Sum |
 | [`ContiguousArray.java`](Arrays/ContiguousArray.java) | LeetCode 525: Contiguous Array (Prefix Sum) |
+| [`FruitIntoBaskets.java`](Arrays/FruitIntoBaskets.java) | LeetCode 904: Fruit Into Baskets (Sliding Window) |
 | [`ProductOfArrayExceptSelf.java`](Arrays/ProductOfArrayExceptSelf.java) | LeetCode 238: Product of Array Except Self |
 | [`SetMatrixZeroes.java`](Arrays/SetMatrixZeroes.java) | LeetCode 73: Set Matrix Zeroes |
 | [`FindPeakElement.java`](Arrays/FindPeakElement.java) | LeetCode 162: Find Peak Element (Binary Search) |
@@ -107,7 +108,7 @@ data-structures-and-algorithms-java/
 | [`Sqrt.java`](Arrays/Sqrt.java) | LeetCode 69: Sqrt(x) via Binary Search |
 | [`RotateImage.java`](Arrays/RotateImage.java) | LeetCode 48: Rotate Image / 90° Matrix Rotation |
 | [`MoveZeroes.java`](Arrays/MoveZeroes.java) | LeetCode 283: Move Zeroes (In-place) |
-| [`RemoveDuplicates.java`](Arrays/RemoveDuplicates.java) | LeetCode 26: Remove Duplicates from Sorted Array |
+| [`RemoveDuplicates.java`](RemoveDuplicates.java) | LeetCode 26: Remove Duplicates from Sorted Array |
 | [`MissingNumber.java`](Arrays/MissingNumber.java) | LeetCode 268: Missing Number (XOR / Sum Formula) |
 | [`SingleNumber.java`](Arrays/SingleNumber.java) | LeetCode 136: Single Number (Bit Manipulation) |
 | [`MaxConsecutiveOnes.java`](Arrays/MaxConsecutiveOnes.java) | LeetCode 485: Max Consecutive Ones |
@@ -137,7 +138,7 @@ data-structures-and-algorithms-java/
 | [`RotateList.java`](LinkedList/RotateList.java) | LeetCode 61: Rotate List |
 | [`DetectLoop.java`](LinkedList/DetectLoop.java) | LeetCode 141: Linked List Cycle (Floyd's Tortoise & Hare) |
 | [`DetectLoopII.java`](LinkedList/DetectLoopII.java) | LeetCode 142: Linked List Cycle II (Find Entry Point) |
-| [`PalindromeLinkedList.java`](LinkedList/PalindromeLinkedList.java) | LeetCode 234: Palindrome Linked List |
+| [`PalindromeLinkedList.java`](PalindromeLinkedList.java) | LeetCode 234: Palindrome Linked List |
 | [`MergeLinkedList.java`](LinkedList/MergeLinkedList.java) | LeetCode 21: Merge Two Sorted Lists |
 | [`AddTwoNumbers.java`](LinkedList/AddTwoNumbers.java) | LeetCode 2: Add Two Numbers |
 | [`RemoveNthFromEnd.java`](LinkedList/RemoveNthFromEnd.java) | LeetCode 19: Remove Nth Node From End of List |
@@ -174,7 +175,7 @@ data-structures-and-algorithms-java/
 </details>
 
 <details open>
-<summary><b>🔤 Strings (12 Solutions) — <a href="Strings/README.md">View Topic Guide</a></b></summary>
+<summary><b>🔤 Strings (13 Solutions) — <a href="Strings/README.md">View Topic Guide</a></b></summary>
 <br>
 
 | Problem / File | Concept / LeetCode Equivalent |
@@ -186,6 +187,7 @@ data-structures-and-algorithms-java/
 | [`ReverseInteger.java`](Strings/ReverseInteger.java) | LeetCode 7: Reverse Integer (Overflow checking) |
 | [`FirstUniqueCharacterInAString.java`](Strings/FirstUniqueCharacterInAString.java) | LeetCode 387: First Unique Character in a String |
 | [`LongestSubstringWithoutRepeatingCharacters.java`](Strings/LongestSubstringWithoutRepeatingCharacters.java) | LeetCode 3: Longest Substring Without Repeating Characters |
+| [`LongestRepeatingCharacterReplacement.java`](Strings/LongestRepeatingCharacterReplacement.java) | LeetCode 424: Longest Repeating Character Replacement (Sliding Window) |
 | [`SortCharactersByFrequency.java`](Strings/SortCharactersByFrequency.java) | LeetCode 451: Sort Characters By Frequency |
 | [`ShiftingLetters.java`](Strings/ShiftingLetters.java) | LeetCode 848: Shifting Letters (Suffix Sum) |
 | [`StringToAtoi.java`](Strings/StringToAtoi.java) | LeetCode 8: String to Integer (atoi) |

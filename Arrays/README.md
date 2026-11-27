@@ -22,7 +22,7 @@ This folder contains my solutions and practice problems on **Arrays and Matrix M
 
 ---
 
-## 📂 Problem Index (50 Solutions)
+## 📂 Problem Index (51 Solutions)
 
 | Problem / File | Concept | LeetCode / Source | Time Complexity | Space Complexity |
 |---|---|:---:|:---:|:---:|
@@ -37,6 +37,7 @@ This folder contains my solutions and practice problems on **Arrays and Matrix M
 | [`SubarraySumsDivisibleByK.java`](SubarraySumsDivisibleByK.java) | Prefix sum with modulo arithmetic | LeetCode 974 | $O(N)$ | $O(\min(N, K))$ |
 | [`ContinuousSubarraySum.java`](ContinuousSubarraySum.java) | Prefix sum remainder (subarray length >= 2) | LeetCode 523 | $O(N)$ | $O(\min(N, K))$ |
 | [`ContiguousArray.java`](ContiguousArray.java) | 0 to -1 mapping + Prefix sum | LeetCode 525 | $O(N)$ | $O(N)$ |
+| [`FruitIntoBaskets.java`](FruitIntoBaskets.java) | At most 2 distinct elements sliding window | LeetCode 904 | $O(N)$ | $O(1)$ |
 | [`ProductOfArrayExceptSelf.java`](ProductOfArrayExceptSelf.java) | Prefix & Suffix products | LeetCode 238 | $O(N)$ | $O(1)$ aux |
 | [`SetMatrixZeroes.java`](SetMatrixZeroes.java) | First row/column in-place marker | LeetCode 73 | $O(M \cdot N)$ | $O(1)$ |
 | [`FindPeakElement.java`](FindPeakElement.java) | Binary Search on peak slope | LeetCode 162 | $O(\log N)$ | $O(1)$ |

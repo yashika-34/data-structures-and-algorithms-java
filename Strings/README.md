@@ -19,7 +19,7 @@ This folder contains my solutions and practice problems on **String Manipulation
 
 ---
 
-## 📂 Problem Index (12 Solutions)
+## 📂 Problem Index (13 Solutions)
 
 | File | Problem Description | LeetCode | Time Complexity | Space Complexity |
 |---|---|:---:|:---:|:---:|
@@ -30,6 +30,7 @@ This folder contains my solutions and practice problems on **String Manipulation
 | [`ReverseInteger.java`](ReverseInteger.java) | Reverse Integer with overflow handling | LeetCode 7 | $O(\log_{10} X)$ | $O(1)$ |
 | [`FirstUniqueCharacterInAString.java`](FirstUniqueCharacterInAString.java) | First Unique Character in a String via frequency array | LeetCode 387 | $O(N)$ | $O(1)$ |
 | [`LongestSubstringWithoutRepeatingCharacters.java`](LongestSubstringWithoutRepeatingCharacters.java) | Longest Substring Without Repeating Characters (Sliding Window) | LeetCode 3 | $O(N)$ | $O(\min(N, M))$ |
+| [`LongestRepeatingCharacterReplacement.java`](LongestRepeatingCharacterReplacement.java) | Longest Repeating Character Replacement (Sliding Window) | LeetCode 424 | $O(N)$ | $O(1)$ |
 | [`SortCharactersByFrequency.java`](SortCharactersByFrequency.java) | Sort Characters By Frequency (Max Heap / Bucket) | LeetCode 451 | $O(N \log K)$ | $O(N)$ |
 | [`ShiftingLetters.java`](ShiftingLetters.java) | Shifting Letters via Suffix Sum | LeetCode 848 | $O(N)$ | $O(N)$ |
 | [`StringToAtoi.java`](StringToAtoi.java) | String to Integer (`atoi`) with overflow clamping | LeetCode 8 | $O(N)$ | $O(1)$ |
